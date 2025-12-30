@@ -72,7 +72,7 @@ export default function ProfilePage() {
 
         <input
           className="w-full border rounded-lg p-3"
-          placeholder="username (e.g., piranava_1)"
+          placeholder="username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
